@@ -6,6 +6,6 @@
 
 <img src="https://skillicons.dev/icons?i=java,spring,mysql,aws" />
 
-## 📌 Ongoing Project
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Down.png" alt="Backhand Index Pointing Down" width="25" height="25" />Ongoing Project
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=swyp-3team&repo=skin-service)](https://github.com/swyp-3team/skin-service)
