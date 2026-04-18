@@ -8,4 +8,4 @@
 
 ## 📌 Ongoing Project
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_ID&repo=YOUR_REPO)](https://github.com/YOUR_ID/YOUR_REPO)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_ID&repo=YOUR_REPO)]([https://github.com/YOUR_ID/YOUR_REPO](https://github.com/swyp-3team/skin-service.git))
