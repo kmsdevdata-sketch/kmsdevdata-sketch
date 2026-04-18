@@ -2,12 +2,10 @@
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Identification%20Card.png" width="30"/> 백엔드 개발자를 목표로 성장 중인 김민서입니다
 
----
 
 ## 💻 Tech Stack
 <img src="https://skillicons.dev/icons?i=java,spring,mysql,aws" />
 
----
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" width="22"/> Ongoing Project
 
