@@ -6,3 +6,6 @@
 
 <img src="https://skillicons.dev/icons?i=java,spring,mysql,aws" />
 
+## 📌 Ongoing Project
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_ID&repo=YOUR_REPO)](https://github.com/YOUR_ID/YOUR_REPO)
