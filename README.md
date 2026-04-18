@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1f1c2c,100:928dab&height=200&section=header&text=Minseo&fontSize=50&fontAlignY=40)
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Hand%20with%20Fingers%20Splayed.png" width="40"/> 백엔드 개발자를 목표로 성장 중인 김민서입니다
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Identification%20Card.png" alt="Identification Card" width="25" height="25" /> 백엔드 개발자를 목표로 성장 중인 김민서입니다
 
 ---
 
