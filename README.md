@@ -9,4 +9,4 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" width="22"/> Ongoing Project
 
-![Repo Card](https://github-readme-stats.vercel.app/api?username=kmsdevdata-sketch&show_icons=true)
+[![Readme Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=kmsdevdata-sketch&repo=pium-api)](https://github.com/kmsdevdata-sketch/pium-api)
