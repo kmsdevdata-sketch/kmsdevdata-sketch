@@ -8,4 +8,4 @@
 
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" width="22"/> Ongoing Project
-[![Readme Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=kmsdevdata-sketch&repo=p3-api)](https://github.com/violetpay-social-seller/p3-api.git)
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=violetpay-social-seller&repo=p3-api)](https://github.com/violetpay-social-seller/p3-api)
