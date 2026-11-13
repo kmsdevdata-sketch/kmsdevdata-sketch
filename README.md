@@ -1,54 +1,24 @@
-<a href="https://kmsdevdata-sketch.github.io">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/header-dark.svg">
-    <img alt="Minseo Kim · Backend Developer · “됐다”고 말하기 전에, 무엇으로 확인했는지부터 묻는 백엔드 개발자입니다." src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/header-light.svg" width="100%">
-  </picture>
-</a>
+<a href="https://kmsdevdata-sketch.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/header-dark.svg"><img alt="Minseo Kim · Backend Developer · “됐다”고 말하기 전에, 무엇으로 확인했는지부터 묻는 백엔드 개발자입니다." src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/header-light.svg" width="100%"></picture></a>
 
-<p>
-  <a href="https://kmsdevdata-sketch.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-1f2328?style=for-the-badge&logo=githubpages&logoColor=white"></a>
-  <a href="https://beingbe.tech/"><img alt="Tech Blog" src="https://img.shields.io/badge/Tech%20Blog-1f2328?style=for-the-badge&logo=rss&logoColor=white"></a>
-  <a href="mailto:kms.dev.data@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-1f2328?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
+<p><a href="https://kmsdevdata-sketch.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/btn-portfolio-dark.svg"><img alt="Portfolio" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/btn-portfolio-light.svg"></picture></a> <a href="https://beingbe.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/btn-blog-dark.svg"><img alt="Tech Blog" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/btn-blog-light.svg"></picture></a> <a href="mailto:kms.dev.data@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/btn-email-dark.svg"><img alt="Email" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/btn-email-light.svg"></picture></a></p>
 
 주문·결제 서비스부터 클라우드 배포와 데이터 이전까지, 기능이 동작하는 것을 넘어 **안전하게 동작한다는 근거**를 만드는 데 집중해 왔습니다.
 
-## Featured Projects
+## Projects
 
-<a href="https://kmsdevdata-sketch.github.io/projects/wihada.html">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/project-wihada-dark.svg">
-    <img alt="위하다 — 주문제작 케이크 매장의 상담·주문·결제 백엔드. 문의 목록 N+1 제거로 p95 385ms에서 92ms, 결제 승인 트랜잭션 분리" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/project-wihada-light.svg" width="100%">
-  </picture>
-</a>
+<p><a href="https://github.com/kmsdevdata-sketch/wihada-api"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/kmsdevdata-sketch/wihada-api/png?description=1&amp;descriptionEditable=%EC%A3%BC%EB%AC%B8%EC%A0%9C%EC%9E%91%20%EC%BC%80%EC%9D%B4%ED%81%AC%20%EB%A7%A4%EC%9E%A5%EC%9D%98%20%EC%83%81%EB%8B%B4%C2%B7%EC%A3%BC%EB%AC%B8%C2%B7%EA%B2%B0%EC%A0%9C%20%EB%B0%B1%EC%97%94%EB%93%9C&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Dark"><img alt="위하다 · 주문제작 케이크 매장의 상담·주문·결제 백엔드" src="https://socialify.git.ci/kmsdevdata-sketch/wihada-api/png?description=1&amp;descriptionEditable=%EC%A3%BC%EB%AC%B8%EC%A0%9C%EC%9E%91%20%EC%BC%80%EC%9D%B4%ED%81%AC%20%EB%A7%A4%EC%9E%A5%EC%9D%98%20%EC%83%81%EB%8B%B4%C2%B7%EC%A3%BC%EB%AC%B8%C2%B7%EA%B2%B0%EC%A0%9C%20%EB%B0%B1%EC%97%94%EB%93%9C&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Light" width="49%"></picture></a> <a href="https://github.com/SoftBank-Hackathon-2026-Team-Jackal/cloud-migration-platform"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/SoftBank-Hackathon-2026-Team-Jackal/cloud-migration-platform/png?description=1&amp;descriptionEditable=EKS%20%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC%20%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4%20K3s%C2%B7GKE%EB%A1%9C%20%EC%98%AE%EA%B8%B0%EB%8A%94%20%ED%94%8C%EB%9E%AB%ED%8F%BC&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Dark"><img alt="Cloud Migration Platform · EKS 서비스를 온프레미스 K3s·GKE로 옮기는 플랫폼" src="https://socialify.git.ci/SoftBank-Hackathon-2026-Team-Jackal/cloud-migration-platform/png?description=1&amp;descriptionEditable=EKS%20%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC%20%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4%20K3s%C2%B7GKE%EB%A1%9C%20%EC%98%AE%EA%B8%B0%EB%8A%94%20%ED%94%8C%EB%9E%AB%ED%8F%BC&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Light" width="49%"></picture></a></p>
+<p><a href="https://github.com/2026-Softbank-hackathon/Auto-Deployment-System"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/2026-Softbank-hackathon/Auto-Deployment-System/png?description=1&amp;descriptionEditable=%ED%95%9C%20%EB%B2%88%20%EB%B9%8C%EB%93%9C%ED%95%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC%20AWS%C2%B7%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4%EC%97%90%20%EB%B0%B0%ED%8F%AC&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Dark"><img alt="코로의 이사 · 한 번 빌드한 이미지를 AWS·온프레미스에 배포" src="https://socialify.git.ci/2026-Softbank-hackathon/Auto-Deployment-System/png?description=1&amp;descriptionEditable=%ED%95%9C%20%EB%B2%88%20%EB%B9%8C%EB%93%9C%ED%95%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC%20AWS%C2%B7%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4%EC%97%90%20%EB%B0%B0%ED%8F%AC&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Light" width="49%"></picture></a> <a href="https://github.com/kmsdevdata-sketch/oneasset-api"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/kmsdevdata-sketch/oneasset-api/png?description=1&amp;descriptionEditable=API%20%ED%95%98%EB%82%98%EB%A1%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%A0%80%EC%9E%A5%C2%B7%EB%B3%80%ED%99%98%C2%B7CDN%20%EB%B0%B0%ED%8F%AC&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Dark"><img alt="OneAsset · API 하나로 이미지 저장·변환·CDN 배포" src="https://socialify.git.ci/kmsdevdata-sketch/oneasset-api/png?description=1&amp;descriptionEditable=API%20%ED%95%98%EB%82%98%EB%A1%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%A0%80%EC%9E%A5%C2%B7%EB%B3%80%ED%99%98%C2%B7CDN%20%EB%B0%B0%ED%8F%AC&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Light" width="49%"></picture></a></p>
+<p><a href="https://github.com/kmsdevdata-sketch/pium-api"><picture><source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/kmsdevdata-sketch/pium-api/png?description=1&amp;descriptionEditable=%ED%94%BC%EB%B6%80%20%EC%A7%84%EB%8B%A8%EA%B3%BC%20%EC%83%81%ED%92%88%20%EC%B6%94%EC%B2%9C%20%EC%84%9C%EB%B9%84%EC%8A%A4&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Dark"><img alt="Pium · 피부 진단과 상품 추천 서비스" src="https://socialify.git.ci/kmsdevdata-sketch/pium-api/png?description=1&amp;descriptionEditable=%ED%94%BC%EB%B6%80%20%EC%A7%84%EB%8B%A8%EA%B3%BC%20%EC%83%81%ED%92%88%20%EC%B6%94%EC%B2%9C%20%EC%84%9C%EB%B9%84%EC%8A%A4&amp;font=Inter&amp;language=1&amp;name=1&amp;pattern=Transparent&amp;theme=Light" width="49%"></picture></a></p>
 
-[Case Study](https://kmsdevdata-sketch.github.io/projects/wihada.html) · [Code](https://github.com/kmsdevdata-sketch/wihada-api) · [Blog: 쿼리 최적화](https://www.beingbe.tech/posts/query-optimization/query-optimization-1/) · [Blog: 트랜잭션 & 동시성](https://www.beingbe.tech/posts/transaction-concurrency/transaction-concurrency-1/)
-
-<a href="https://kmsdevdata-sketch.github.io/projects/jackal.html">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/project-jackal-dark.svg">
-    <img alt="Cloud Migration Platform — EKS의 앱과 PostgreSQL을 온프레미스 K3s·GKE로 옮기는 플랫폼. NAT 뒤 온프레미스 복제 터널 RTT 13ms, 이전 전 4단계 사전 검사" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/project-jackal-light.svg" width="100%">
-  </picture>
-</a>
-
-[Case Study](https://kmsdevdata-sketch.github.io/projects/jackal.html) · [Code](https://github.com/SoftBank-Hackathon-2026-Team-Jackal/cloud-migration-platform) · [Blog: 클라우드 마이그레이션](https://www.beingbe.tech/posts/cloud-migration/cloud-migration-1/)
-
-<a href="https://kmsdevdata-sketch.github.io/projects/koro-moving.html">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/project-koro-dark.svg">
-    <img alt="코로의 이사 — 한 번 빌드한 이미지를 AWS·온프레미스에 배포하는 플랫폼. 실제 배포 61건 중 60건 예상 결과 일치, AWS↔온프레미스 전환 6/6" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/project-koro-light.svg" width="100%">
-  </picture>
-</a>
-
-[Case Study](https://kmsdevdata-sketch.github.io/projects/koro-moving.html) · [Code](https://github.com/2026-Softbank-hackathon/Auto-Deployment-System)
-
-**Other Projects** · [OneAsset](https://kmsdevdata-sketch.github.io/projects/oneasset.html) — API 하나로 이미지 저장·변환·CDN 배포, k6로 실제 환경 한계 측정 · [Pium](https://kmsdevdata-sketch.github.io/projects/pium.html) — SWYP 팀 프로젝트를 혼자 재설계해 출시한 피부 진단 서비스
+각 프로젝트의 문제 정의, 설계 판단, 검증 과정은 포트폴리오에 정리했습니다. <a href="https://kmsdevdata-sketch.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/btn-portfolio-dark.svg"><img alt="Portfolio" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/btn-portfolio-light.svg"></picture></a>
 
 ## Writing
 
-- [쿼리 최적화 시리즈](https://www.beingbe.tech/posts/query-optimization/query-optimization-1/) — 측정 → 실행 계획 분석 → N+1 제거
-- [트랜잭션 & 동시성 시리즈](https://www.beingbe.tech/posts/transaction-concurrency/transaction-concurrency-1/) — 결제 승인과 내부 트랜잭션의 경계, 동시 승인 재현과 복구
-- [클라우드 마이그레이션 1편](https://www.beingbe.tech/posts/cloud-migration/cloud-migration-1/) — NAT 뒤 온프레미스로 PostgreSQL 논리 복제하기
+<a href="https://www.beingbe.tech/posts/query-optimization/query-optimization-1/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/post-query-dark.svg"><img alt="쿼리 최적화 시리즈 — 대상 API 선정부터 N+1 제거까지" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/post-query-light.svg" width="100%"></picture></a>
+
+<a href="https://www.beingbe.tech/posts/transaction-concurrency/transaction-concurrency-1/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/post-tx-dark.svg"><img alt="트랜잭션과 동시성 시리즈 — 결제 승인 흐름 분석과 복구" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/post-tx-light.svg" width="100%"></picture></a>
+
+<a href="https://www.beingbe.tech/posts/cloud-migration/cloud-migration-1/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/post-migration-dark.svg"><img alt="클라우드 마이그레이션 1편 — PostgreSQL 논리 복제로 무중단 데이터 이전하기" src="https://github.com/kmsdevdata-sketch/kmsdevdata-sketch/raw/main/assets/svg/post-migration-light.svg" width="100%"></picture></a>
 
 ## Tech Stack
 

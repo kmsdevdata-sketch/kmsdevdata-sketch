@@ -25,21 +25,22 @@ ROLE = "Backend Developer"
 TAGLINE_1 = "“됐다”고 말하기 전에,"
 TAGLINE_2 = "무엇으로 확인했는지부터 묻는 백엔드 개발자입니다."
 
-PROJECTS = [
-    dict(slug="wihada", eyebrow="PROJECT INTERNSHIP · TEAM",
-         title="위하다",
-         desc=["주문제작 케이크 매장의 상담 · 주문 · 결제를", "한 흐름으로 묶은 서비스의 백엔드"],
-         tags=["Java", "Spring Boot", "PostgreSQL", "Redis", "AWS ECS"]),
-    dict(slug="jackal", eyebrow="SOFTBANK HACKATHON 2026 · FINAL",
-         title="Cloud Migration Platform",
-         desc=["EKS의 앱 · PostgreSQL을 온프레미스 K3s · GKE로", "옮기는 플랫폼의 프로비저닝과 데이터 경로"],
-         tags=["Python", "Temporal", "Terraform", "Helm", "WireGuard"]),
-    dict(slug="koro", eyebrow="SOFTBANK HACKATHON 2026 · PRELIM",
-         title="코로의 이사",
-         desc=["한 번 빌드한 이미지를 AWS · 온프레미스에 배포하는", "플랫폼의 배포 검증과 장애 전환"],
-         tags=["TypeScript", "Node.js", "PostgreSQL", "Docker", "Cloudflare"]),
+POSTS = [
+    dict(slug="query", series="SERIES · 쿼리 최적화 · 1–3편",
+         title="쿼리 최적화: 대상 API 선정부터 N+1 제거까지",
+         desc="베이스라인 측정 → SQL·실행 계획 분석 → 집계 SQL 1,002회를 1회로"),
+    dict(slug="tx", series="SERIES · 트랜잭션과 동시성 · 1–3편",
+         title="트랜잭션과 동시성: 결제 승인 흐름 분석과 복구",
+         desc="외부 결제 승인과 내부 DB 트랜잭션의 경계, 동시 승인 재현과 자동 복구"),
+    dict(slug="migration", series="클라우드 마이그레이션 · 1편",
+         title="PostgreSQL 논리 복제로 무중단 데이터 이전하기",
+         desc="WireGuard 터널로 복제 경로를 만들고 네트워크 Preflight로 검증한 과정"),
 ]
 
+# Small link buttons: (file slug, label)
+BUTTONS = [
+    ("portfolio", "Portfolio"), ("blog", "Tech Blog"), ("email", "Email"),
+]
 # -------------------------------------------------------------------
 
 
@@ -96,25 +97,34 @@ def header(t, mode):
     return "".join(s)
 
 
-def project_card(p, t):
-    W, H = 860, 150
-    s = [svg_open(W, H, f'{p["title"]} — {" ".join(p["desc"])}')]
+def post_card(p, t):
+    W, H = 860, 118
+    s = [svg_open(W, H, f'{p["title"]} — {p["desc"]}')]
     s.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="12" fill="{t["card"]}" stroke="{t["border"]}"/>')
-    s.append(f'<text x="28" y="38" class="mono" font-size="11.5" font-weight="600" letter-spacing="1.5" fill="{t["faint"]}">{escape(p["eyebrow"])}</text>')
-    s.append(f'<text x="27" y="72" font-size="25" font-weight="800" fill="{t["text"]}">{escape(p["title"])}</text>')
-    s.append(f'<text x="28" y="100" font-size="15.5" fill="{t["muted"]}">{escape(" ".join(p["desc"]))}</text>')
-    x = 28
-    for tag in p["tags"]:
-        c, w = chip(x, 113, tag, t, size=12, pad=9, h=23)
-        s.append(c)
-        x += w + 6
-    s.append(f'<text x="{W-28}" y="72" text-anchor="end" class="mono" font-size="13" font-weight="600" fill="{t["faint"]}">Case Study →</text>')
+    s.append(f'<rect x="0.5" y="0.5" width="6" height="{H-1}" rx="3" fill="{t["accent"]}"/>')
+    s.append(f'<text x="30" y="34" class="mono" font-size="11.5" font-weight="600" letter-spacing="1" fill="{t["faint"]}">{escape(p["series"])}</text>')
+    s.append(f'<text x="29" y="66" font-size="20" font-weight="800" fill="{t["text"]}">{escape(p["title"])}</text>')
+    s.append(f'<text x="30" y="93" font-size="14.5" fill="{t["muted"]}">{escape(p["desc"])}</text>')
+    s.append(f'<text x="{W-28}" y="34" text-anchor="end" class="mono" font-size="12" font-weight="600" fill="{t["faint"]}">beingbe.tech ↗</text>')
+    s.append("</svg>")
+    return "".join(s)
+
+
+def button(label, t):
+    size, h, pad = 13, 34, 16
+    w = int(text_width(label, size) + pad * 2 + 16)
+    s = [svg_open(w, h, label)]
+    s.append(f'<rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="{h/2-0.5}" fill="{t["chip"]}" stroke="{t["chip_border"]}"/>')
+    s.append(f'<text x="{pad}" y="{h/2 + size*0.36:.1f}" font-size="{size}" font-weight="700" fill="{t["text"]}">{escape(label)}</text>')
+    s.append(f'<text x="{w - pad}" y="{h/2 + size*0.36:.1f}" text-anchor="end" font-size="{size}" font-weight="700" fill="{t["faint"]}">↗</text>')
     s.append("</svg>")
     return "".join(s)
 
 
 for mode, t in THEMES.items():
     (OUT / f"header-{mode}.svg").write_text(header(t, mode))
-    for p in PROJECTS:
-        (OUT / f"project-{p['slug']}-{mode}.svg").write_text(project_card(p, t))
+    for p in POSTS:
+        (OUT / f"post-{p['slug']}-{mode}.svg").write_text(post_card(p, t))
+    for slug, label in BUTTONS:
+        (OUT / f"btn-{slug}-{mode}.svg").write_text(button(label, t))
 print("written:", sorted(f.name for f in OUT.glob("*.svg")))
