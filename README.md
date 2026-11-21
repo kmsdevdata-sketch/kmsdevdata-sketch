@@ -27,8 +27,9 @@
 
 | 프로젝트 | 기여 내용 | 상태 | 관련 글 |
 |:---:|:---|:---:|:---:|
-| [JUnit](https://github.com/junit-team/junit-framework/pull/6281) | Jupiter 생명주기 메서드 사이에서도 테스트 취소를 확인하도록 개선 | 리뷰 중 | [1편](https://www.beingbe.tech/posts/oss/junit-contribution-1/) · [2편](https://www.beingbe.tech/posts/oss/junit-contribution-2/) · [3편](https://www.beingbe.tech/posts/oss/junit-contribution-3/) |
-| [Hibernate ORM](https://github.com/hibernate/hibernate-orm/pull/14057) | 선언한 결과 타입과 맞지 않는 서브쿼리 select를 미리 거부 | 리뷰 대기 | [1편](https://www.beingbe.tech/posts/oss/hibernate-contribution-1/) |
+| [JUnit](https://github.com/junit-team/junit-framework/pull/6281) | Jupiter 생명주기 메서드 사이에서도 테스트 취소를 확인하도록 개선 | ✅ [Merged](https://github.com/junit-team/junit-framework/pull/6281) | [1편](https://www.beingbe.tech/posts/oss/junit-contribution-1/) · [2편](https://www.beingbe.tech/posts/oss/junit-contribution-2/) · [3편](https://www.beingbe.tech/posts/oss/junit-contribution-3/) |
+| [Hibernate ORM](https://github.com/hibernate/hibernate-orm/pull/14057) | 선언한 결과 타입과 맞지 않는 서브쿼리 select를 미리 거부 | [리뷰 대기](https://github.com/hibernate/hibernate-orm/pull/14057) | [1편](https://www.beingbe.tech/posts/oss/hibernate-contribution-1/) |
+| [Jetty](https://github.com/jetty/jetty.project/pull/16207) | 가상 스레드를 쓰면서 생성 수를 제한하는 QueuedThreadPool 설정 방법을 문서화 | [리뷰 대기](https://github.com/jetty/jetty.project/pull/16207) | [1편](https://www.beingbe.tech/posts/oss/jetty-contribution-1/) · [2편](https://www.beingbe.tech/posts/oss/jetty-contribution-2/) |
 
 <br>
 
